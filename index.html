@@ -1,96 +1,57 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Malcolm Durling - Student, Web & iPhone Developer and Music Nut | Dunedin, NZ  </title>
-	<link rel="shortcut icon" href="img/md.png"/>
-	<meta name="description" content="Malcolm Durling - Student, Web & iPhone Developer and Music Nut | Dunedin, NZ "/>
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link href='http://fonts.googleapis.com/css?family=Adamina|Sorts+Mill+Goudy|Lobster' rel='stylesheet' type='text/css'>
-	<link href="js/jquery.bubblepopup.v2.3.1.css" rel="stylesheet" type="text/css" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-	<script src="js/jquery.bubblepopup.v2.3.1.min.js" type="text/javascript"></script>
-	<base target="_blank">
-	<meta name="author" content="Malcolm Durling">
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-25736347-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
-	</script>
-	<script type="text/javascript">
-	$(document).ready(function(){
-						var positions = {		
-								'linkedin': {position: 'top', align: 'center', message: 'Find me on LinkedIn' },
-								'github': {position: 'top', align: 'center', message: 'Folk me on Github' },
-								'lastfm': {position: 'top', align: 'center', message: "Follow what I'm listening to" },
-								'email': {position: 'top', align: 'center', message: 'Send me an email' },
-								'twitter': {position: 'top', align: 'center', message: 'Follow me on Twitter' }
-						};
-
-						for(var id in positions){
-								$('.link.'+id).CreateBubblePopup({
-										position : positions[id].position,
-										align	 : positions[id].align,
-										innerHtml: positions[id].message,
-										innerHtmlStyle: {
-													color:'#FFFFFF', 
-													'text-align':'center'
-													},
-										themeName: 	'all-grey',
-										themePath: 	'img/jquerybubblepopup-theme'
-									});
-						} //end loop
-		});
-	</script>
 	
+	<!-- Meta declarations -->
+	<meta charset="utf-8">
+	<meta name="author" content="Malcolm Durling">
+	<meta name="description" content="Malcolm Durling - Student, Web &amp iPhone Developer and Music Nut | Dunedin, NZ">
+	
+	<!-- Links to external resources i.e fonts, stylesheets and images -->
+	<link rel="shortcut icon" href="img/md.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Adamina|Sorts+Mill+Goudy|Lobster' type='text/css'>
+	<link rel="stylesheet" href="css/jquery.bubblepopup.v2.3.1.css">
+	
+	<!-- Script declarations -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="js/jquery.bubblepopup.v2.3.1.min.js"></script>
+	<script src="js/bubble.js"></script>
+	
+	<!-- Page title and base making all links open new windows -->
+	<base target="_blank">
+	<title>Malcolm Durling - Student, Web &amp iPhone Developer and Music Nut | Dunedin, NZ  </title>
 </head>
 <body>
 	<div id="content_wrapper">
 		<div class="main_column">
-			<h1>Oh <span>Hello</span></h1>
-			<h3> I'm </br></h3> 
-			<h2> Malcolm Durling </h2>
-			<br>
+			<header>
+				<h1>Oh <span>Hello</span></h1>
+			</header>
+			<h3> I'm </h3> 
+			<h2 class="spacebottom"> Malcolm Durling </h2>
 			<p> A third year Computer Science Student who's about to face the big, scary 'real world'.
 			I like Web and iOS Development and am a self-confessed music nerd. Feel free
 			to check out my <a href="pdf/Malcolm_Durling_CV.pdf">Curriculum Vitate</a> 
-			if you're interested in working with me, otherwise take a gander at the<a href ="https://github.com/LuinLoki"> projects</a> 
+			if you're interested in working together, otherwise take a gander at the 
+			<a href ="https://github.com/LuinLoki">projects</a> 
 			I'm currently hacking away at.</p>
-			<p><br> Help me get my foot in the door! Get in touch.<br><br></p>
-			   <div class="menu social">
-		          <ul class="links">
+			<p class="spacetop" > Help me get my foot in the door! Get in touch.</p>
+			<div class="menu social">
+		    	<ul class="links">
 					<li class="link linkedin"><a class="tooltip" href=
-					"http://nz.linkedin.com/pub/malcolm-durling/25/b97/569" title=
-					"Find me on Linkedin">Find me on Linkedin</a></li>
-					
+						"http://nz.linkedin.com/pub/malcolm-durling/25/b97/569">Find me on LinkedIn</a></li>
 					<li class="link github"><a class="tooltip" href=
-					"https://github.com/LuinLoki" title=
-					"Fork me on GitHu">Fork me on GitHub</a></li>
-					
+						"https://github.com/LuinLoki">Fork me on GitHub</a></li>
 					<li class="link lastfm"><a class="tooltip" href=
-		            "http://www.last.fm/user/luinloki1" title=
-		            "Follow what I'm listening to on Last.fm"></a>Follow what I'm listening to on Last.fm</li>
-					
+		           		"http://www.last.fm/user/luinloki1"></a>Follow what I'm listening to</li>
 					<li class="link twitter"><a class="tooltip" href=
-		            "http://twitter.com/MalcolmDurling"title="Follow me on Twitter">Follow me on
-		            Twitter</a></li>
-					
+		            	"http://twitter.com/MalcolmDurling">Follow me on Twitter</a></li>
 					<li class="link email"><a class="tooltip" href=
-				    "mailto:mtdurling@gmail.com?subject=Contact" title=
-				    "Email me">Email me</a></li>
-					
-		          </ul>
-		        </div>
-		
+				    	"mailto:mtdurling@gmail.com?subject=Contact">Send me an email</a></li>
+		     	</ul>
+		    </div>
 		</div>
 	</div>
 </body>

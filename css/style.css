@@ -1,0 +1,208 @@
+/*
+ *
+ *	Author: Malcolm Durling.
+ *	Purpose: www.malcolmdurling.com
+ *
+*/	
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, button {
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	text-decoration: none;
+	vertical-align: baseline;
+	font-style: normal;
+}
+
+ul {	
+	list-style: none;
+}
+
+a img { 
+	border: none; 
+}
+
+/* Structure defined
+-------------------------------------------------------------------------------------------------*/
+
+body{
+	background-color: #333435 
+}
+html{
+	font-family:'Adamina', "Lucida Grande", Arial, sans-serif;
+	background-attachment:fixed;
+	color:#ffffff;
+}
+
+#content_wrapper{
+	width:950px;
+	margin:30px auto 30px;
+}
+
+a{
+	background-color:inherit;
+	color:#437EBB;
+}
+a:hover{
+	background-color: inherit;
+	color:#73AEEB;
+}
+p{
+	clear:both;
+	font-family:'Sorts Mill Goudy', "Lucida Grande", Arial, sans-serif;
+}
+h3{
+	font-family: 'Lobster', cursive;
+	float: center;
+	font-size: 2em;
+}
+
+
+
+/* Content styling
+----------------------------------------------------------------------------------------------------*/
+
+.main_column{
+	float: center;
+	width: 500px;
+	margin-left: 220px;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+.main_column h1{
+	/*text-shadow: 0.6px 0.6px 0.6px #aaa;*/
+	text-shadow: 0 1px 0 #333435, 0 2px 0 #333435, 0 2px 0 #333435, 0 2px 0 #333435, 0 2px 0 #333435, 0 2px 0 #000;
+	font-size:5em;
+	text-transform:uppercase;
+}
+.main_column h2{
+	font-size:2em;
+	
+	font-family: "HelveticaNeueHeavy", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif;
+}
+
+.main_column p{
+	font-size:1.1em;
+	margin: 2px 0;
+}
+
+.main_column span{
+	color:#909090;
+}
+
+.main_column .spacebottom{
+	padding-bottom: 30px;
+}
+
+.main_column .spacetop{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+
+/* Social networking menu
+--------------------------------------------------------------------------------------------------------------------*/
+
+div.menu.social {
+    background: transparent url("img/divider.png") bottom left repeat-x;
+    padding-bottom: 21px;
+}
+
+
+div.menu.social ul.links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    background: transparent url("img/divider.png") 0 0 repeat-x;
+    padding-top: 21px;
+}
+
+div.menu.social ul.links li.link {
+    /*display: block;*/
+    float: left;
+    width: 20%;
+    height: 64px;
+    overflow: hidden;
+}
+
+div.menu.social ul.links li.link a {
+    display: block;
+    margin: 0 auto;
+    height: 64px;
+    width: 64px;
+    overflow: hidden;
+    text-indent: -10000px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    /*-webkit-transition:background-color 0.2s linear;*/
+} 
+
+
+
+/* Icon template provide by http://chethstudios.blogspot.com.*/
+
+div.menu.social ul.links li.twitter a { background-image: url('img/twitterbird.png'); }
+div.menu.social ul.links li.lastfm a { background-image: url('img/lastfm.png'); }
+div.menu.social ul.links li.linkedin a { background-image: url('img/linkedin.png'); }
+div.menu.social ul.links li.email a { background-image: url('img/email.png'); }
+div.menu.social ul.links li.github a { background-image: url('img/github.png'); }
+
+
+
+/* Tipsy CSS config
+------------------------------------------------------------------------------------------------------------------*/
+
+/*.tooltipsy
+{
+    padding: 10px;
+    max-width: 50px;
+    color: #303030;
+    background-color: #f5f5b5;
+    border: 1px solid #deca7e;
+}*/
+
+.bubbletooltip_tip
+{
+    font-size: 11px;
+	padding: 10px;
+    color: #fff;
+    background-color: #909090;
+    -moz-box-shadow: inset 0 0 10px #fff;
+    -webkit-box-shadow: inset 0 0 10px #fff;
+    box-shadow: inset 0 0 10px #fff;
+    text-shadow: 0 0 2px #fff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bubbletooltip_tip:after
+{
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-left-color: #909090;
+    bottom: -10px;
+    left: 60px;
+	margin:0 auto; 
+    z-index: -1;
+}
+
+code { 
+	font-family: "Courier New", monospace, serif;
+	font-size: 1em;
+	speak: literal-punctuation;
+	word-wrap: normal;
+}
+
+
