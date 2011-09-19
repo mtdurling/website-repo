@@ -60,7 +60,7 @@ p{
 h3{
 	font-family: 'Lobster', cursive;
 	float: center;
-	font-size: 2em;
+	font-size: 2.2em;
 }
 
 
@@ -78,19 +78,20 @@ h3{
 
 .main_column h1{
 	/*text-shadow: 0.6px 0.6px 0.6px #aaa;*/
-	text-shadow: 0 1px 0 #333435, 0 2px 0 #333435, 0 2px 0 #333435, 0 2px 0 #333435, 0 2px 0 #333435, 0 2px 0 #000;
+	text-shadow: 0 1px 0 #333435, 0 2px 0 #333435, 0 3px 0 #333435, 0 5px 0 #333435, 0 6px 0 #333435, 0 2px 0 #000;
 	font-size:5em;
 	text-transform:uppercase;
 }
 .main_column h2{
-	font-size:2em;
+	font-size:2.1em;
+	font-family:'Adamina', "Lucida Grande", Arial, sans-serif;
 	
-	font-family: "HelveticaNeueHeavy", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif;
+	
 }
 
 .main_column p{
 	font-size:1.1em;
-	margin: 2px 0;
+	margin: 2px 0; 
 }
 
 .main_column span{

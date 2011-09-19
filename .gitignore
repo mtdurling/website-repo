@@ -1,3 +1,5 @@
 *~
 pdf/*
 js/bubble.js
+*.png
+deploy.py
