@@ -48,3 +48,23 @@ $(document).ready(function(){
 							});
 					
 	});
+	/*$(document).ready(function () {
+		
+			$('.link').css('opacity','0.9');
+			$('.link').hover(
+				// on mouse over
+				function() {
+					$(this).stop().animate({
+						opacity: '1'
+					}, '1000');
+				},
+				// on mouse out
+				function() {
+					$(this).stop().animate({
+						opacity: '0.9'
+					}, '1000');
+				}
+			);
+	
+		// Remove margin-right from latest icon
+	});*/
