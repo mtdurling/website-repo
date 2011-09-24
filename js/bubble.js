@@ -4,7 +4,7 @@ $(document).ready(function(){
 					var positions = {		
 							'linkedin': {position: 'top', align: 'center', message: 'Find me on LinkedIn' },
 							'github': {position: 'top', align: 'center', message: 'Fork me on GitHub' },
-							'lastfm': {position: 'top', align: 'center', message: "Follow what I'm listening to" },
+							'lastfm': {position: 'top', align: 'center', message: "See what I'm listening to" },
 							'email': {position: 'top', align: 'center', message: 'Send me an email' },
 							'twitter': {position: 'top', align: 'center', message: 'Follow me on Twitter' }
 					};
@@ -46,6 +46,24 @@ $(document).ready(function(){
 									//show the bubble popup with new options
 								$('.link.twitter').ShowBubblePopup();
 							});
+							
+							
+							
+							$('.link').css('opacity','0.75');
+							$('.link').hover(
+								// on mouse over
+								function() {
+									$(this).stop().animate({
+										opacity: '0.99'
+									}, 'fast');
+								},
+								// on mouse out
+								function() {
+									$(this).stop().animate({
+										opacity: '0.75'
+									}, 'fast');
+								}
+							);
 					
 	});
 	/*$(document).ready(function () {
